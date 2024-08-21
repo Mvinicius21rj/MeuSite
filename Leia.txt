@@ -1,0 +1,6 @@
+Criar Tag
+git tag "nome da tag"
+
+
+Subir para o remoto 
+git push origin "nome da tag"
