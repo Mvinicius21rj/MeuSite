@@ -4,18 +4,21 @@
 }
 
 img {
-  height: 150px;
+  height: 180px;
   width: 220px;
   border-radius: 10px;
   margin: 10px;
 }
 /*Estilo Geral*/
-.logo > a > img {
-  height: 180px;
-  width: 200px;
+
+.logo-footer {
+  display: flex;
+  align-items: baseline;
+  align-items: center;
 }
+
 .logo-footer > img {
-  height: 180px;
+  height: 250px;
   width: 200px;
 }
 
@@ -42,8 +45,8 @@ img {
 
 button:hover,
 form .btn-enviar input:hover {
-  box-shadow: 0px 0px 8px --_color-padrao;
-  transform: scale(1.05);
+  box-shadow: 0px 0px 8px white;
+  transform: scale(1.5);
 }
 
 body {
@@ -106,6 +109,11 @@ header nav ul li {
 /* Topo do Site*/
 section.topo-do-site {
   padding: 10px 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 section.topo-do-site .flex {
@@ -175,8 +183,9 @@ section.especialidades .flex {
 /*sOBRE*/
 section.sobre {
   padding: 10px 1%;
-  margin: 50px;
-  max-width: 1280px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
 }
 
 .sobre .txt-sobre {
@@ -192,6 +201,7 @@ section.sobre .flex {
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .sobre .txt-sobre h2 span {
@@ -208,10 +218,12 @@ section.sobre .flex {
   height: 60px;
   border-radius: 50%;
   border: none;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(218, 242, 252);
   font-size: 22px;
   cursor: pointer;
-  margin: 0 5px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin: 20 20px;
   transition: 0.2s;
 }
 
@@ -336,6 +348,7 @@ footer .flex {
 
 footer .line-footer {
   padding: 20px 0;
+  display: flex;
 }
 .borda {
   border-top: 2px solid #004aad;
@@ -381,9 +394,6 @@ footer .line-footer p a {
   }
 
   /*Sobre*/
-  section.sobre {
-    padding: 80px 8%;
-  }
 
   .sobre.txt-sobre h2 {
     font-size: 34px;
@@ -392,7 +402,6 @@ footer .line-footer p a {
   }
 
   .btn-social {
-    text-align: center;
   }
 
   .img-sobre > img {
