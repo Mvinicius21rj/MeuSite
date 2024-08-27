@@ -4,3 +4,11 @@ git tag "nome da tag"
 
 Subir para o remoto 
 git push origin "nome da tag"
+
+
+
+> Configuração Docker
+
+comando para iniciar o container docker com volume direcionado para a pasta MeuSite, e outro volume de configuração nginx
+docker run --name docker-nginx -p 80:80 -v ~/Portifolio/MeuSite:/usr/share/nginx/html -v ~/docker-nginx/default.conf:/etc/nginx/conf.d/default.conf -d ngi
+docker restart docker-nginx
