@@ -231,8 +231,8 @@ section.sobre .flex {
 
 section.portifolio {
   padding: 80px 4%;
-  box-shadow: 0 0 40px 10px #ffffff54;
 }
+
 section.portifolio .flex {
   justify-content: space-around;
   margin-top: 60px;
@@ -349,9 +349,6 @@ footer .flex {
 footer .line-footer {
   padding: 20px 0;
   display: flex;
-}
-.borda {
-  border-top: 2px solid #004aad;
 }
 
 footer .line-footer p i {
